@@ -8,7 +8,7 @@ public class App {
 //        ApplicationContext context = new ClassPathXmlApplicationContext("componentScanDemo.xml");
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-                Employee employee =(Employee) context.getBean("employee");
+                Employee employee =(Employee) context.getBean("employee1");
         System.out.println(employee.toString());
         Manager manager = context.getBean("manager", Manager.class);
         System.out.println(manager.toString());

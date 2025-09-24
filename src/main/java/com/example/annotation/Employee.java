@@ -3,7 +3,7 @@ package com.example.annotation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("employee")
+@Component("employee1")
 public class Employee {
     private int employeeId;
     @Value("Raul")
